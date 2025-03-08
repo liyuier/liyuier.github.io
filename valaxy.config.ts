@@ -42,6 +42,15 @@ export default defineValaxyConfig<UserThemeConfig>({
         icp: '苏ICP备2025165289号',
       },
     },
+
+    say: {
+      enable: true,
+      api: 'https://v1.hitokoto.cn',
+      hitokoto: {
+        enable: true,
+        api: 'https://v1.hitokoto.cn',
+      }
+    },
   },
 
   unocss: { safelist },
