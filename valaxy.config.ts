@@ -17,7 +17,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '云游君的小站',
+      title: 'Yuier 的个人博客',
     },
 
     pages: [
@@ -36,10 +36,10 @@ export default defineValaxyConfig<UserThemeConfig>({
     ],
 
     footer: {
-      since: 2016,
+      since: 2025,
       beian: {
         enable: true,
-        icp: '苏ICP备17038157号',
+        icp: '苏ICP备2025165289号',
       },
     },
   },
