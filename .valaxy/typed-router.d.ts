@@ -28,7 +28,8 @@ declare module 'vue-router/auto-routes' {
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
-    '/posts/hello-valaxy': RouteRecordInfo<'/posts/hello-valaxy', '/posts/hello-valaxy', Record<never, never>, Record<never, never>>,
+    '/posts/001-qq-bot-brief-introduce': RouteRecordInfo<'/posts/001-qq-bot-brief-introduce', '/posts/001-qq-bot-brief-introduce', Record<never, never>, Record<never, never>>,
+    '/posts/002-blog-deploy': RouteRecordInfo<'/posts/002-blog-deploy', '/posts/002-blog-deploy', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 }

@@ -6,8 +6,9 @@ export default defineSiteConfig({
   title: 'yuier',
   author: {
     name: 'yuier',
-    avatar: 'https://avatars.githubusercontent.com/u/142088896?v=4',
+    avatar: 'https://yui-bucket-1309363843.cos.ap-nanjing.myqcloud.com/avatar1.jpg',
   },
+  subtitle: 'yuier 的个人博客',
   description: 'Yuier 的个人博客.',
 
   social: [
