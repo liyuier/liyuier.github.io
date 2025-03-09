@@ -9,7 +9,7 @@ export default defineSiteConfig({
     avatar: 'https://yui-bucket-1309363843.cos.ap-nanjing.myqcloud.com/avatar1.jpg',
   },
   subtitle: '一切都会 好起来的',
-  description: '种一棵树最好的时间是十年前，其次是现在。',
+  description: '东隅已逝 桑榆非晚',
 
   social: [
     {
