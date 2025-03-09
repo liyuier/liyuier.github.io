@@ -26,6 +26,11 @@ export default defineSiteConfig({
     },
   ],
 
+  /**
+   * 站点图标
+   */
+  favicon: 'https://yui-bucket-1309363843.cos.ap-nanjing.myqcloud.com/image/2.ico',
+
   search: {
     enable: false,
   },
