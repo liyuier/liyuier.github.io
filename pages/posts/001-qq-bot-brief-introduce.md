@@ -7,8 +7,6 @@ author: yuier
 cover: 
 ---
 
-# QQ 机器人简介
-
 ## QQ 机器人是什么
 
 QQ 群/频道里的机器人
