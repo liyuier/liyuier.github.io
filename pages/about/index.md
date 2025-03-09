@@ -2,14 +2,8 @@
 title: 关于我
 ---
 
-I am developing [Valaxy](https://github.com/YunYouJun/valaxy) - Next Generation Static Blog Framework.
+软件开发，社畜时长一年半
 
-If you like it, you can sponsor me in [GitHub](https://github.com/sponsors/YunYouJun) or [sponsors.yunyoujun.cn](https://sponsors.yunyoujun.cn).
+目前正在开发一款 QQ 机器人程序 https://github.com/liyuier/Yuni2. 虽然我很希望有 start，但不得不承认用 Java 开发 QQ 机器人多少有点太丰矿了，我估计除了我没有第二个人能把它跑起来。
 
----
-
-我正在开发 [Valaxy](https://github.com/YunYouJun/valaxy) - 下一代静态博客框架。
-
-如果你喜欢它，你可以在 [GitHub](https://github.com/sponsors/YunYouJun) 或 [sponsors.yunyoujun.cn](https://sponsors.yunyoujun.cn) 赞助我。
-
-Check out the [Valaxy | GitHub](https://github.com/YunYouJun/valaxy) for more details.
+偶尔看番，偶尔打游戏，经常看网络小说。立志健身但踏出最远的一步是吃了半年灰的健身房会员卡。
