@@ -3,13 +3,13 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://liyuier.github.io/',
   lang: 'zh-CN',
-  title: 'yuier',
+  title: 'Yuier 的个人博客',
   author: {
     name: 'yuier',
     avatar: 'https://yui-bucket-1309363843.cos.ap-nanjing.myqcloud.com/avatar1.jpg',
   },
-  subtitle: 'yuier 的个人博客',
-  description: 'Yuier 的个人博客.',
+  subtitle: '一切都会 好起来的',
+  description: '种一棵树最好的时间是十年前，其次是现在。',
 
   social: [
     {

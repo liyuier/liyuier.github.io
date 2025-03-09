@@ -13,8 +13,14 @@ QQ 群/频道里的机器人
 
 ## QQ 机器人主要技术路线
 
-Waiting for written...
+- 第三方客户端
+- 客户端劫持（QQ NT）
 
 ## 当前优秀实践
 
-Waiting for written too...
+QQ NT
+ll
+llonebot
+
+mirai:
+overflow
