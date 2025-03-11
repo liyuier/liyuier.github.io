@@ -73,7 +73,7 @@ export default defineSiteConfig({
   },
 
   /**
-   * 代码块高度不超过300px
+   * 代码块高度不超过 900 px
    */
-  codeHeightLimit: 1200,
+  codeHeightLimit: 900,
 })
