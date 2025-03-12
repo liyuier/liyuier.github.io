@@ -39,7 +39,7 @@ cover:
 
 #### 远程仓库
 
-见我的另一篇博文 [搭建自己的 git 远程仓库服务](https://yuier.com/posts/003-build-self-gitrepo-server)
+见我的另一篇博文 [搭建自己的 git 远程仓库服务](https://yuier.com/posts/001-build-self-gitrepo-server)
 
 最终搭建出的博客远程仓库地址为 `/home/git/repos/liyuier.github.io.git`
 
