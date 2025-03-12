@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://liyuier.github.io/',
+  url: 'https://yuier.com/',
   lang: 'zh-CN',
   title: 'Yuier 的个人博客',
   author: {
