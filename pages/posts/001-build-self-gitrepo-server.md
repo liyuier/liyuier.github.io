@@ -1,8 +1,8 @@
 ---
 title: 搭建自己的 git 远程仓库服务
 titleTemplate: '%s - yuier'
-date: 2025-03-09 23:19:12
-updated: 2025-03-09 23:19:12
+date: 2025-03-09 01:19:12
+updated: 2025-03-09 01:19:12
 author: yuier
 cover: 
 ---
