@@ -1,0 +1,1 @@
+vala new --layout common %1

@@ -5,6 +5,7 @@ date: 2025-03-10 21:32:16
 updated: 2025-03-10 21:32:16
 author: yuier
 cover: 
+draft: true
 ---
 
 ## 缘起
@@ -406,3 +407,7 @@ types {
     video/x-msvideo                       avi;
 }
 ```
+
+## 以 nginx 部署
+
+(To be done...)
