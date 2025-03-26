@@ -410,4 +410,4 @@ types {
 
 ## 以 nginx 部署
 
-(To be done...)
+见 [使用 nginx 部署博客](https://yuier.com/posts/005-deploy-blog-by-nginx)
