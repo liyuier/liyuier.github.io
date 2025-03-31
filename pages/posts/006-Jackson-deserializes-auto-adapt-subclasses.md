@@ -5,7 +5,7 @@ date: 2025-03-26 23:56:28
 updated: 2025-03-26 23:56:28
 author: yuier
 cover: 
-hide: true
+hide: 
 ---
 
 本文采用方法完全来自于 [10 分钟轻松学会 Jackson 反序列化自动适配子类](https://zhuanlan.zhihu.com/p/357911357) ；本文仅补充笔者实践部分工作。
@@ -40,7 +40,7 @@ hide: true
 
 ## 思路
 
-其实就是基于 SpringBoot 默认的反序列化框架 Jackson 实现的，具体来讲，主要有以下几步：
+其实就是基于 SpringBoot 默认的反序列化框架 `Jackson` 实现的，具体来讲，主要有以下几步：
 
 - 在父类上加入注解 `JsonTypeInfo` ，指定以某个字段，例如 `key` 的值决定具体适配哪个子类。
 
