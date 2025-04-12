@@ -1,51 +1,11 @@
-# create-valaxy
+静态博客代码仓。
 
-Example: [valaxy.site](https://valaxy.site)
+博客框架: [Valaxy](https://valaxy.site/)
 
-## Usage
+博客主题: [valaxy-theme-yun](https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun)
 
-```bash
-# install
-npm i
-# or pnpm i
+站点: 
 
-# start
-npm run dev
-# or pnpm dev
-```
+- Home: [Yuier 的个人博客](https://yuier.com)
 
-See `http://localhost:4859/`, have fun!
-
-### Config
-
-Modify `valaxy.config.ts` to custom your blog.
-
-English & Chinese Docs is coming!
-
-> Wait a minute.
-
-### Docker
-
-```bash
-docker build . -t your-valaxy-blog-name:latest
-```
-
-## Structure
-
-In most cases, you only need to work in the `pages` folder.
-
-### Main folders
-
-- `pages`: your all pages
-  - `posts`: write your posts here, will be counted as posts
-- `styles`: override theme styles, `index.scss`/`vars.csss`/`index.css` will be loaded automatically
-- `components`: custom your vue components (will be loaded automatically)
-- `layouts`: custom layouts (use it by `layout: xxx` in md)
-- `locales`: custom i18n
-
-### Other
-
-- `.vscode`: recommend some useful plugins & settings, you can preview icon/i18n/class...
-- `.github`: GitHub Actions to auto build & deploy to GitHub Pages
-- `netlify.toml`: for [netlify](https://www.netlify.com/)
-- `vercel.json`: for [vercel](https://vercel.com/)
+- GitHub Pages: [Yuier 的个人博客](https://liyuier.github.io/)
