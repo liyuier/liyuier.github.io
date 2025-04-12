@@ -76,4 +76,9 @@ export default defineSiteConfig({
    * 代码块高度不超过 900 px
    */
   codeHeightLimit: 900,
+
+  /**
+   * 图片预览
+   */
+  mediumZoom: { enable: true }
 })
