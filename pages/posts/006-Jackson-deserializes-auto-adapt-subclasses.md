@@ -155,4 +155,6 @@ private void improveJacksonDeserialize() {
 
 ## 效果演示
 
-咕咕咕。。。总之上述内容好使就完事了，一时半会不补图也没啥影响。。。
+如图所示，在 Controller 层，接口入参为 OneBotEvent 类型；而实际收到请求后，该请求被自动解析为了 MessageEvent 类型。
+
+![image.png](https://s2.loli.net/2025/04/13/nbrS78tNuO2pXyK.png)
