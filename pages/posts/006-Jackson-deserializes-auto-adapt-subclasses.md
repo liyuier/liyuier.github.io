@@ -12,6 +12,8 @@ hide: true
 
 <!-- more -->
 
+**无法解决多层级父子类反序列化问题，本文暂不发布**
+
 ## 问题引入
 
 我一直在开发一款 QQ 机器人服务端程序项目，该项目适配 [OneBot 11 标准](https://283375.github.io/onebot_v11_vitepress/) ; 我的问题就是这个标准中的 [事件](https://283375.github.io/onebot_v11_vitepress/event/index.html) 上报机制引入的。
