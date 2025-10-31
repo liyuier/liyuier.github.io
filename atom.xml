@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yuier.com/</id>
+    <title>Yuier 的个人博客</title>
+    <updated>2025-10-31T10:17:58.730Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>yuier</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://yuier.com/"/>
+    <link rel="self" href="https://yuier.com/atom.xml"/>
+    <subtitle>东隅已逝 桑榆非晚</subtitle>
+    <logo>https://yui-bucket-1309363843.cos.ap-nanjing.myqcloud.com/avatar1.jpg</logo>
+    <icon>https://yuier.com/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2025 © yuier</rights>
+    <entry>
+        <title type="html"><![CDATA[《觅长生》炼器开局备忘录]]></title>
+        <id>https://yuier.com/posts/011-michangsheng-lianqikaiju</id>
+        <link href="https://yuier.com/posts/011-michangsheng-lianqikaiju"/>
+        <updated>2025-10-31T15:15:14.000Z</updated>
+        <content type="html"><![CDATA[<h2>英杰会前后</h2>
+<p>创建存档需要有星辰泪。</p>
+<p>开局东石谷剧情没什么好说的，直接快进到进入武陵城。</p>
+<p>然后传送阵传到逸风城，进宝器轩，卖星辰泪，买【金光】。如果求稳可以再买个【护体法袍】，一回合 10</p>
+<br/><p>访问 <a href="https://yuier.com/posts/011-michangsheng-lianqikaiju" target="_blank">https://yuier.com/posts/011-michangsheng-lianqikaiju</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-10-31T15:15:14.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OneBot 消息事件的一种持久化思路]]></title>
+        <id>https://yuier.com/posts/008-one-bot-message-persistence</id>
+        <link href="https://yuier.com/posts/008-one-bot-message-persistence"/>
+        <updated>2025-04-20T18:32:52.000Z</updated>
+        <content type="html"><![CDATA[<p>OneBot 是一种聊天机器人应用接口标准 <a href="https://283375.github.io/onebot_v11_vitepress/">OneBot 11 标准</a></p>
+<br/><p>访问 <a href="https://yuier.com/posts/008-one-bot-message-persistence" target="_blank">https://yuier.com/posts/008-one-bot-message-persistence</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-20T18:32:52.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[搭建自己的邮件服务器]]></title>
+        <id>https://yuier.com/posts/007-your-own-email-server</id>
+        <link href="https://yuier.com/posts/007-your-own-email-server"/>
+        <updated>2025-04-06T23:07:17.000Z</updated>
+        <content type="html"><![CDATA[<p>参考文章：</p>
+<p><a href="https://blog.zeruns.com/archives/822.html">Linux搭建邮件服务器的教程，如何搭建自己的域名邮箱服务器？Poste.io邮箱服务器搭建教程</a></p>
+<br/><p>访问 <a href="https://yuier.com/posts/007-your-own-email-server" target="_blank">https://yuier.com/posts/007-your-own-email-server</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-06T23:07:17.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用 nginx - docker 部署博客]]></title>
+        <id>https://yuier.com/posts/005-deploy-blog-by-nginx-docker</id>
+        <link href="https://yuier.com/posts/005-deploy-blog-by-nginx-docker"/>
+        <updated>2025-03-25T23:45:36.000Z</updated>
+        <content type="html"><![CDATA[<p>不使用 docker 部署步骤见 <a href="https://yuier.com/posts/002-blog-deploy">个人博客的搭建与部署</a> （不推荐）</p>
+<br/><p>访问 <a href="https://yuier.com/posts/005-deploy-blog-by-nginx-docker" target="_blank">https://yuier.com/posts/005-deploy-blog-by-nginx-docker</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-25T23:45:36.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QQ 机器人漫谈]]></title>
+        <id>https://yuier.com/posts/003-qq-bot-brief-introduce</id>
+        <link href="https://yuier.com/posts/003-qq-bot-brief-introduce"/>
+        <updated>2025-03-13T02:14:14.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>隔着网线，没人知道<a href="https://zh.moegirl.org.cn/zh-hans/%E8%B5%9B%E5%8D%9Aoo#.E8.B5.9B.E5.8D.9A.E7.8C.AB.E5.A8.98.2F.E8.B5.9B.E5.8D.9A.E6.B4.97.E8.84.91.E5.92.92">你是一只猫娘</a></p>
+</blockquote>
+<p>本文目的是对 QQ 机器人的一些基本概念进行介绍。</p>
+<br/><p>访问 <a href="https://yuier.com/posts/003-qq-bot-brief-introduce" target="_blank">https://yuier.com/posts/003-qq-bot-brief-introduce</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-13T03:14:14.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[搭建自己的 git 远程仓库服务]]></title>
+        <id>https://yuier.com/posts/001-build-self-gitrepo-server</id>
+        <link href="https://yuier.com/posts/001-build-self-gitrepo-server"/>
+        <updated>2025-03-09T01:19:12.000Z</updated>
+        <content type="html"><![CDATA[<h2>流程简述</h2>
+<p>假设我们已经拥有了一台 Linux 服务器，并且服务器上安装好了 git，并且已经比较熟悉 Linux 与 git 的常用操作</p>
+<ul>
+<li>
+<p>创建 git 用户，用于管理 git 仓库 —— 这样我们的仓库地址就会是 <code>git@your-site.com:/xxx/yyy/zzz.git</code></p>
+</li>
+<li>
+<p>配置 ssh 免密登录，这样每次拉取/推送代码时不必输入 git 用户的密码</p>
+</li>
+<li>
+<p>创建仓库并拉取</p>
+</li>
+<li>
+<p>大功告成！</p>
+</li>
+</ul>
+<br/><p>访问 <a href="https://yuier.com/posts/001-build-self-gitrepo-server" target="_blank">https://yuier.com/posts/001-build-self-gitrepo-server</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-09T01:19:12.000Z</published>
+    </entry>
+</feed>
