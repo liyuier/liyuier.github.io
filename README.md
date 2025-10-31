@@ -15,3 +15,10 @@
 ```bash
 ./add_post.bat <title>
 ```
+
+部署：
+
+```bash
+# git commit 之后
+./deploy.bat
+```

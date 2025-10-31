@@ -1,5 +1,5 @@
 ---
-title: 
+title: 刷新博客与邮箱的 SSL 证书方式
 titleTemplate: '%s - yuier'
 date: 2025-10-31 15:01:50
 updated: 2025-10-31 15:01:50
