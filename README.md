@@ -9,3 +9,9 @@
 - Home: [Yuier 的个人博客](https://yuier.com)
 
 - GitHub Pages: [Yuier 的个人博客](https://liyuier.github.io/)
+
+创建新文章：
+
+```bash
+./add_post.bat <title>
+```
