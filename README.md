@@ -13,7 +13,7 @@
 创建新文章：
 
 ```bash
-./add_post.bat <title>
+./add_post.bat <file_name>
 ```
 
 部署：
