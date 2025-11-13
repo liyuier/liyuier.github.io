@@ -4,6 +4,10 @@ titleTemplate: '%s - yuier'
 date: <%=date%>
 updated: <%=date%>
 author: yuier
+categories:
+    - 
+tags:
+    - 
 cover: 
 hide: 
 ---
