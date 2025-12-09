@@ -13,13 +13,13 @@ cover:
 hide: index
 ---
 
-# 创建型设计模式
+## 创建型设计模式
 
-## 工厂方法
+### 工厂方法
 
 提供在父类中创建对象的接口，但允许子类改变将要创建的对象类型。核心目标是解耦对象创建与使用逻辑
 
-### 场景分析
+#### 场景分析
 
 不同运输环境需求不同交通工具：陆地需求卡车、水面需求船舶
 
@@ -39,7 +39,7 @@ class LogisticsManager {
 }
 ```
 
-### 问题
+#### 问题
 
 * 直接依赖具体实现，客户端与具体运输工具耦合
 
@@ -49,7 +49,7 @@ class LogisticsManager {
 
 * 代码重复
 
-### 解决
+#### 解决
 
 ![image.png](https://s2.loli.net/2025/12/04/8TcRQKZHMAhryWV.png)
 
@@ -71,11 +71,11 @@ class LogisticsManager {
 
 ![image.png](https://s2.loli.net/2025/12/04/NTCZIOQ3lpnYEHy.png)
 
-## 抽象工厂
+### 抽象工厂
 
 抽象工厂是一种创建型设计模式，可以生成相关对象系列，而无需指定他们的具体类
 
-### 场景分析
+#### 场景分析
 
 装修需要家具，有 3 种家具：椅子、沙发、咖啡桌；它们又各自有三种风格的产品：艺术风、维多利亚风、现代风
 
@@ -96,7 +96,7 @@ class Client {
 }
 ```
 
-### 问题
+#### 问题
 
 * 风格一致性失控：同一客厅内存在不同风格家具
 
@@ -110,7 +110,7 @@ class Client {
     ```
 * 产品族管理失效：将现代餐桌与维多利亚椅子组合，类型系统无法阻止
 
-### 解决
+#### 解决
 
 ![image.png](https://s2.loli.net/2025/12/04/m5e7NYq1Tz3Fdui.png)
 
@@ -148,7 +148,7 @@ CoffeeTable table = factory.createCoffeeTable(); // 返回 VictorianCoffeeTable
 
 ![image.png](https://s2.loli.net/2025/12/04/swD7h9gQxkVqtFE.png)
 
-## 建造者
+### 建造者
 
 Builder 是一种创建型设计模式，可以逐步构建复杂对象。
 
@@ -182,7 +182,7 @@ House house = new House.Builder()
 
 与工厂模式的区别：工厂模式着重解决“创建什么”的问题，建造者模式着重解决“怎么创建”的问题
 
-## 原型
+### 原型
 
 允许复制现有对象，而不使代码依赖于它们的类
 
@@ -202,7 +202,7 @@ House house = new House.Builder()
 
 * 简化对象创建：尤其适合组合结构（如树、图）。
 
-## 单例
+### 单例
 
 确保一个类只有一个实例，同时为该实例提供全局访问点
 
@@ -230,9 +230,9 @@ House house = new House.Builder()
 
 * 而设计模式中的单例是整个 JVM 中唯一。
 
-# 结构型设计模式
+## 结构型设计模式
 
-## 适配器模式
+### 适配器模式
 
 使接口不兼容的类实现协同工作
 
@@ -246,17 +246,17 @@ House house = new House.Builder()
 
 没什么好说的
 
-## 桥接器模式
+### 桥接器模式
 
 将一个大类或一系列紧密相关的类拆分为抽象和实现两个独立的层次结构，从而能在开发时分别使用
 
 通过“组合代替继承”的方式，把原本可能通过多层继承实现的功能，拆分成两个独立的类体系，并在运行时动态组合，从而避免“类爆炸”问题。
 
-### 问题场景
+#### 问题场景
 
 物体有形状和颜色两种属性。如果单纯使用继承，那么对于 m 个形状和 n 个颜色，需要 m*n 个具体类
 
-### 解决
+#### 解决
 
 让 `形状` 持有一个 `颜色` 的接口，运行时动态注入颜色
 
@@ -276,7 +276,7 @@ squareWithBlue.draw();  // 输出: Drawing Square Color: Blue
 
 像一座桥一样，连接了两个独立变化的部分
 
-## 组合模式
+### 组合模式
 
 将对象组合成树形结构，以表示“部分-整体”的层次关系，并让客户端对单个对象和组合对象的使用具有一致性。
 
@@ -286,7 +286,7 @@ squareWithBlue.draw();  // 输出: Drawing Square Color: Blue
 
 * composite 容器：可以包含子 component ，实现 add, remove, getChild 等方法
 
-### 举例
+#### 举例
 
 ```java
 // 员工是 leaf
@@ -309,7 +309,7 @@ director.add(teamLead); // 经理也可以作为下属！
 director.showDetails();
 ```
 
-## 装饰器模式
+### 装饰器模式
 
 将对象放入包含行为的特殊封装对象中来为原对象绑定新的行为
 
@@ -332,7 +332,7 @@ System.out.println(coffee.getDescription() + " $" + coffee.cost());
 
 与代理的区别：装饰者强调增强，代理强调控制
 
-## 外观模式
+### 外观模式
 
 为一个复杂的子系统提供一个统一、简化的接口，隐藏其内部复杂性
 
@@ -365,7 +365,7 @@ Computer computer = new Computer();
 computer.start();
 ```
 
-## 享元模式
+### 享元模式
 
 通过共享技术，有效地支持大量细粒度的对象，从而节省内存。
 
@@ -404,7 +404,7 @@ fw1.operation("位置(10,20)"); // 外部状态
 fw2.operation("位置(30,40)"); // 外部状态
 ```
 
-## 代理模式
+### 代理模式
 
 用一个对象代表另一个对象，代理 = 控制访问 + 增强行为
 
@@ -414,15 +414,15 @@ fw2.operation("位置(30,40)"); // 外部状态
 
 与装饰器模式的区别：装饰器侧重增强，代理侧重控制访问
 
-# 行为型设计模式
+## 行为型设计模式
 
-## 责任链模式
+### 责任链模式
 
 将请求沿着处理者链进行发送。收到请求后，每个处理者均可对请求进行处理，或将其传递给链上的下个处理者
 
 ![image.png](https://s2.loli.net/2025/12/06/t8eAnilP7NcFJak.png)
 
-## 命令模式
+### 命令模式
 
 将 “请求” 封装为一个对象
 
@@ -430,7 +430,7 @@ fw2.operation("位置(30,40)"); // 外部状态
 
 // 理解不了这种东西也能称为设计模式
 
-## 迭代器模式
+### 迭代器模式
 
 提供一种方法，顺序访问一个聚合对象中的各个元素，而又不暴露其内部表示。
 
@@ -441,24 +441,24 @@ while (it.hasNext()) {
 }
 ```
 
-## 中介者模式
+### 中介者模式
 
 限制对象之间的直接交互，迫使它们通过一个中介者对象进行合作，使对象之间不再直接引用彼此，降低耦合度
 
-## 备忘录模式
+### 备忘录模式
 
 允许在不暴露对象实现细节的情况下保存和恢复对象之前的状态
 
-## 观察者模式
+### 观察者模式
 
 定义一种订阅机制，可以在对象事件发生时，通知多个“观察”该对象的其他对象
 
-## 状态模式
+### 状态模式
 
 在对象的内部状态变化时改变其行为，看起来就像是改变了其类（状态机？）
 
 ```python
-# 状态基类（可省略，这里只为清晰）
+## 状态基类（可省略，这里只为清晰）
 class State:
     def insert_coin(self): pass
 
@@ -472,7 +472,7 @@ class NoGoods(State):
 
 class VendingMachine:
     def __init__(self):
-        self.state = HasGoods()  # 初始状态
+        self.state = HasGoods()  ## 初始状态
 
     def insert_coin(self):
         self.state.insert_coin()
@@ -480,14 +480,14 @@ class VendingMachine:
     def set_state(self, state):
         self.state = state
 
-# 客户端调用
+## 客户端调用
 vm = VendingMachine()
-vm.insert_coin()          # → 出货！
+vm.insert_coin()          ## → 出货！
 vm.set_state(NoGoods())
-vm.insert_coin()          # → 售罄！
+vm.insert_coin()          ## → 售罄！
 ```
 
-## 策略模式
+### 策略模式
 
 将不同算法封装到不同类中，选择权交给用户
 
@@ -498,14 +498,14 @@ vm.insert_coin()          # → 售罄！
 | 状态间关系 | 策略彼此独立、平等    | 状态之间有明确转移规则     |
 | 典型场景  | 排序、支付方式、压缩算法 | 订单状态、游戏角色状态     |
 
-## 模板方法
+### 模板方法
 
 在超类中定义了一个算法框架，允许子类在不修改结构的情况下重写算法的特定步骤
 
 ```python
-# 抽象基类：定义模板方法
+## 抽象基类：定义模板方法
 class CaffeineBeverage:
-    def prepare(self):          # 模板方法（final，不希望被重写）
+    def prepare(self):          ## 模板方法（final，不希望被重写）
         self.boil_water()
         self.brew()
         self.pour_in_cup()
@@ -515,26 +515,26 @@ class CaffeineBeverage:
     def boil_water(self):       print("烧水")
     def pour_in_cup(self):      print("倒入杯中")
 
-    # 钩子方法（可选）
+    ## 钩子方法（可选）
     def customer_wants_condiments(self): return True
 
-    # 抽象方法（子类必须实现）
+    ## 抽象方法（子类必须实现）
     def brew(self): raise NotImplementedError
     def add_condiments(self): raise NotImplementedError
 
-# 具体子类：咖啡
+## 具体子类：咖啡
 class Coffee(CaffeineBeverage):
     def brew(self):              print("冲泡咖啡粉")
     def add_condiments(self):    print("加糖和牛奶")
 
-# 具体子类：茶
+## 具体子类：茶
 class Tea(CaffeineBeverage):
     def brew(self):              print("浸泡茶叶")
     def add_condiments(self):    print("加柠檬")
-    def customer_wants_condiments(self): return False  # 覆盖钩子
+    def customer_wants_condiments(self): return False  ## 覆盖钩子
 ```
 
-## 访问者
+### 访问者
 
 将算法与其所作用的对象隔离开
 
@@ -542,10 +542,10 @@ class Tea(CaffeineBeverage):
 
 
 ```python
-# 资产
+## 资产
 assets = [House(), Car()]
 
-# 访问者类
+## 访问者类
 class AnnualTaxVisitor(TaxVisitor):
     def visit_house(self, house):
         print("房产税：¥5000")
@@ -553,13 +553,13 @@ class AnnualTaxVisitor(TaxVisitor):
     def visit_car(self, car):
         print("车船税：¥800")
 
-# 使用
+## 使用
 tax_calc = AnnualTaxVisitor()
 for asset in assets:
-    asset.accept(tax_calc)  # 每个资产“接待”访问者
+    asset.accept(tax_calc)  ## 每个资产“接待”访问者
 ```
 
-## 解释器 
+### 解释器 
 
 定义一种语言语法，以及一个可以解析和执行表达式的解释器
 
