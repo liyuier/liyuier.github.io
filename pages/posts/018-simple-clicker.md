@@ -10,9 +10,13 @@ tags:
     - C#
     - 鼠标连点器
     - mytools
-cover: https://s2.loli.net/2025/12/15/BwhdUuL3Y4oJFck.png
+cover: 
 hide: 
 ---
+
+![image.png](https://s2.loli.net/2025/12/15/BwhdUuL3Y4oJFck.png)
+
+<!-- more -->
 
 ## 起因
 
