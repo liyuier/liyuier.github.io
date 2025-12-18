@@ -11,7 +11,7 @@ tags:
     - 分布式
     - 八股文
 cover: 
-hide: 
+hide: true
 ---
 
 ## 典型应用
