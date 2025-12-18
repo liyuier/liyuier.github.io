@@ -12,7 +12,7 @@ tags:
     - Java
     - 八股文
 cover: 
-hide: true
+hide: index
 ---
 
 ## RPC 基础架构和组成结构
