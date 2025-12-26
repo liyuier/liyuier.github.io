@@ -29,7 +29,7 @@ export default defineSiteConfig({
   /**
    * 站点图标
    */
-  favicon: 'https://yui-bucket-1309363843.cos.ap-nanjing.myqcloud.com/yuier-icon.svg',
+  favicon: 'https://yui-bucket-1309363843.cos.ap-nanjing.myqcloud.com/image/yuier-icon.svg',
 
   search: {
     enable: false,
