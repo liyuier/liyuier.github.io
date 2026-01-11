@@ -95,6 +95,8 @@ https://github.com/fatedier/frp/releases/
 
 因为 Windows App 在尝试建立远程桌面连接的时候会自动寻找 3389 端口，而公网服务器的 3389 端口被客户端的 `localPort` 和 `remotePort` 配置自动映射到内网 PC  的 3389 端口上了，所以这里无需再特意填写具体端口。
 
+另一个就是添加要登陆的用户账密。
+
 ![image.png](https://s2.loli.net/2026/01/10/vTVN91wmZ5fnK3J.png)
 
 填写好之后直接点击新创建的连接即可。

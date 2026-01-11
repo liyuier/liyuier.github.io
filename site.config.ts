@@ -31,8 +31,12 @@ export default defineSiteConfig({
    */
   favicon: 'https://yui-bucket-1309363843.cos.ap-nanjing.myqcloud.com/image/yuier-icon.svg',
 
+  /**
+   * 搜索配置
+   */
   search: {
-    enable: false,
+    enable: true,
+    provider: 'fuse',
   },
 
   sponsor: {
