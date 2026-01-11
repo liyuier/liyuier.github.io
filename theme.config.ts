@@ -22,6 +22,15 @@ export default defineThemeConfig({
 
   footer: {
     since: 2025,
+
+    icon: {
+      name: 'i-ri-cloud-line',
+      animated: true,
+      color: 'var(--va-c-primary)',
+      url: 'https://github.com/liyuier/liyuier.github.io/blob/master/LICENSE',  // copyright info url
+      title: 'LICENSE',
+    },
+
     beian: {
       enable: true,
       icp: '苏ICP备2025165289号',
