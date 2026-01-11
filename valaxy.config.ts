@@ -15,34 +15,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   theme: 'yun',
 
   themeConfig: {
-    banner: {
-      enable: true,
-      title: 'Yuier 的个人博客',
-    },
-
-    pages: [
-      {
-        name: '我的小伙伴们',
-        url: '/links/',
-        icon: 'i-ri-genderless-line',
-        color: 'dodgerblue',
-      },
-      // {
-      //   name: '喜欢的女孩子',
-      //   url: '/girls/',
-      //   icon: 'i-ri-women-line',
-      //   color: 'hotpink',
-      // },
-    ],
-
-    footer: {
-      since: 2025,
-      beian: {
-        enable: true,
-        icp: '苏ICP备2025165289号',
-      },
-    },
-
+    
     say: {
       enable: true,
       api: 'https://v1.hitokoto.cn',
