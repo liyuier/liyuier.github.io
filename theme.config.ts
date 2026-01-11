@@ -7,8 +7,7 @@ export default defineThemeConfig({
   },
 
   nav: [
-    { text: '博客文章', link: '/posts/', icon: 'i-ri-article-line' },
-    { text: '归档', link: '/archives/', icon: 'ri:archive-line' },
+    { text: '归档', link: '/archives/', icon: 'i-ri-archive-line' },
     { text: '项目列表', link: '/projects', icon: 'i-ri-gallery-view' },
   ],
 
