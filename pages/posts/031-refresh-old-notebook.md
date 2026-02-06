@@ -65,7 +65,7 @@ hide:
 
 ## 更换配件
 
-换了一个键盘和一个 1080p 屏幕，成本 ￥200
+换了一个键盘和一个 1080p 屏幕，成本 ￥300
 
 ![image.jpg](https://s2.loli.net/2026/02/07/W6mrnuLOU92dIYX.jpg)
 ![image.jpg](https://s2.loli.net/2026/02/07/Lk6dPCMAtINbSsa.jpg)
@@ -80,7 +80,35 @@ hide:
 
 新键盘不带小红点，我把旧键盘的小红点拆了下来装了上去，可以用。小红点部件没拍照片，只录了装好后的效果。
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=116025135728487&bvid=BV1zBFjzhEk4&cid=35874079912&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<style>
+.video-container {
+    position: relative;
+    width: 100%;
+    /* 16:9 宽高比 = (9 / 16) * 100% = 56.25% */
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden; /* 防止内容溢出 */
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* 继承父元素的宽高，实现响应式 */
+}
+</style>
+
+<div class="video-container">
+<iframe 
+    src="//player.bilibili.com/player.html?isOutside=true&aid=116025135728487&bvid=BV1zBFjzhEk4&cid=35874079912&p=1" 
+    scrolling="no" 
+    border="0" 
+    frameborder="no" 
+    framespacing="0" 
+    allowfullscreen="true">
+</iframe>
+</div>
 
 ### 其他配件
 
