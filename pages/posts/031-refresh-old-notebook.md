@@ -118,7 +118,7 @@ hide:
 
 登录 TP-LINK 管理页 [192.168.0.1](http://192.168.0.1) ，给笔记本电脑设置一下 IP 与 MAC 绑定
 
-![image.png](https://s2.loli.net/2026/02/07/qES3mnuPpL7IBfR.png)
+![image.png](https://s2.loli.net/2026/02/07/MuPDtTX5LlhESNk.png)
 
 笔记本上开启 SSH 服务
 
