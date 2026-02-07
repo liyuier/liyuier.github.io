@@ -5,7 +5,7 @@ date: 2026-01-16 16:54:06
 updated: 2026-01-16 16:54:06
 author: yuier
 categories:
-    - 
+    - 解决方案
 tags:
     - MySQL
     - canal
