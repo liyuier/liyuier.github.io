@@ -80,35 +80,7 @@ hide:
 
 新键盘不带小红点，我把旧键盘的小红点拆了下来装了上去，可以用。小红点部件没拍照片，只录了装好后的效果。
 
-<style>
-.video-container {
-    position: relative;
-    width: 100%;
-    /* 16:9 宽高比 = (9 / 16) * 100% = 56.25% */
-    padding-bottom: 56.25%; 
-    height: 0;
-    overflow: hidden; /* 防止内容溢出 */
-}
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* 继承父元素的宽高，实现响应式 */
-}
-</style>
-
-<div class="video-container">
-<iframe 
-    src="//player.bilibili.com/player.html?isOutside=true&aid=116025135728487&bvid=BV1zBFjzhEk4&cid=35874079912&p=1" 
-    scrolling="no" 
-    border="0" 
-    frameborder="no" 
-    framespacing="0" 
-    allowfullscreen="true">
-</iframe>
-</div>
+[【【自用留档】ThinkPad E580 换新键盘保留使用旧小红点】](https://www.bilibili.com/video/BV1zBFjzhEk4)
 
 ### 其他配件
 
