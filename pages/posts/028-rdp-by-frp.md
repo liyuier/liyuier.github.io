@@ -77,11 +77,13 @@ https://github.com/fatedier/frp/releases/
 
 ![image.png](https://s2.loli.net/2026/01/10/Z5EVYyaNrmJStCM.png)
 
-![image.png](https://s2.loli.net/2026/01/10/peA5oiW9s1w8BF6.png)
+![pasted-image-1771077083616.webp](https://files.seeusercontent.com/2026/02/14/kHy2/pasted-image-1771077083616.webp)
 
-然后 `frps.exe -c frps.toml` 启动客户端
+然后 `frpc.exe -c frpc.toml` 启动客户端
 
 终端看到一堆蓝色的字，里边有 success 什么的就算成功了。
+
+![pasted-image-1771077186118.webp](https://files.seeusercontent.com/2026/02/14/sJb5/pasted-image-1771077186118.webp)
 
 ### Windows App
 
