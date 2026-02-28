@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yuier.com/</id>
+    <title>Yuier 的个人博客</title>
+    <updated>2026-02-28T11:18:04.413Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>yuier</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://yuier.com/"/>
+    <link rel="self" href="https://yuier.com/atom.xml"/>
+    <subtitle>东隅已逝 桑榆非晚</subtitle>
+    <logo>https://yui-bucket-1309363843.cos.ap-nanjing.myqcloud.com/avatar1.jpg</logo>
+    <icon>https://yuier.com/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2026 © yuier</rights>
+    <entry>
+        <title type="html"><![CDATA[我的世界新手入门笔记]]></title>
+        <id>https://yuier.com/posts/032-minecraft-beginner-note</id>
+        <link href="https://yuier.com/posts/032-minecraft-beginner-note"/>
+        <updated>2026-02-28T16:52:58.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>参考视频 【【我的世界】超详细新手入坑攻略—第一期】 <a href="https://www.bilibili.com/video/BV1qE1oBiEcn/">https://www.bilibili.com/video/BV1qE1oBiEcn/</a></p>
+</blockquote>
+<h2>游戏准备</h2>
+<p>我使用的是 PCL2 启动器</p>
+<br/><p>访问 <a href="https://yuier.com/posts/032-minecraft-beginner-note" target="_blank">https://yuier.com/posts/032-minecraft-beginner-note</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-02-28T16:52:58.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[旧笔记本翻新]]></title>
+        <id>https://yuier.com/posts/031-refresh-old-notebook</id>
+        <link href="https://yuier.com/posts/031-refresh-old-notebook"/>
+        <updated>2026-02-07T01:21:03.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2026/02/07/7KDI4Xk2sN8HxvT.jpg" alt="image.jpg"></p>
+<br/><p>访问 <a href="https://yuier.com/posts/031-refresh-old-notebook" target="_blank">https://yuier.com/posts/031-refresh-old-notebook</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-02-07T01:21:03.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一种数据库到缓存的数据一致性方案]]></title>
+        <id>https://yuier.com/posts/030-db-2-cache-consistance</id>
+        <link href="https://yuier.com/posts/030-db-2-cache-consistance"/>
+        <updated>2026-01-16T16:54:06.000Z</updated>
+        <content type="html"><![CDATA[<h2>背景</h2>
+<p>为了提高服务性能，对于不重要的数据常常不直接查询数据库，而是将其同步到缓存中访问，加快查询速度。在网上检索查找方案后，发现一个比较[重量级](<a href="https://zh.moegirl.or">https://zh.moegirl.or</a></p>
+<br/><p>访问 <a href="https://yuier.com/posts/030-db-2-cache-consistance" target="_blank">https://yuier.com/posts/030-db-2-cache-consistance</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-01-16T16:54:06.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用 nginx 部署子域名服务 —— Yuni 机器人文档的部署]]></title>
+        <id>https://yuier.com/posts/029-yuni-doc</id>
+        <link href="https://yuier.com/posts/029-yuni-doc"/>
+        <updated>2026-01-11T03:18:49.000Z</updated>
+        <content type="html"><![CDATA[<h2>背景</h2>
+<p>搓了小一个月的 <a href="https://github.com/liyuier/Yuni3">Yuni</a> 机器人终于差不多搓完了，决定部署一个文档出来。</p>
+<p>我本身有一个域名和公网服务器，即本站</p>
+<br/><p>访问 <a href="https://yuier.com/posts/029-yuni-doc" target="_blank">https://yuier.com/posts/029-yuni-doc</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-01-11T03:18:49.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[基于 frp 的 Windows 远程桌面连接]]></title>
+        <id>https://yuier.com/posts/028-rdp-by-frp</id>
+        <link href="https://yuier.com/posts/028-rdp-by-frp"/>
+        <updated>2026-01-10T08:56:41.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2026/01/10/T2I94QwGn5CcYjW.jpg" alt="image.jpeg"></p>
+<br/><p>访问 <a href="https://yuier.com/posts/028-rdp-by-frp" target="_blank">https://yuier.com/posts/028-rdp-by-frp</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-01-10T08:56:41.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[基于 OkHttp 的 WebSocket 客户端封装]]></title>
+        <id>https://yuier.com/posts/026-websocket-client-encapsulation</id>
+        <link href="https://yuier.com/posts/026-websocket-client-encapsulation"/>
+        <updated>2026-01-01T00:13:20.000Z</updated>
+        <content type="html"><![CDATA[<h2>背景</h2>
+<p>OneBot 协议中定义了 OneBot 客户端与 bot 应用之间两种通信方式，分别为 HTTP 通信与 WebSocket 通信，具体到我当前正在开发的 [Yuni3](https</p>
+<br/><p>访问 <a href="https://yuier.com/posts/026-websocket-client-encapsulation" target="_blank">https://yuier.com/posts/026-websocket-client-encapsulation</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-01-01T00:13:20.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Java 应用下简单插件系统的设计 - 插件代码开发与插件 jar 加载]]></title>
+        <id>https://yuier.com/posts/025-java-appp-plugin-design</id>
+        <link href="https://yuier.com/posts/025-java-appp-plugin-design"/>
+        <updated>2025-12-24T11:06:02.000Z</updated>
+        <content type="html"><![CDATA[<h2>背景</h2>
+<p>依然是我正在开发的 QQ 机器人应用。众所周知每个 QQ 机器人应用都支持插件系统，所以我也决定为我的应用实现一个插件系统。</p>
+<h2>简介</h2>
+<p>本文主要讲插件的开发与加载，插件管理涉及业</p>
+<br/><p>访问 <a href="https://yuier.com/posts/025-java-appp-plugin-design" target="_blank">https://yuier.com/posts/025-java-appp-plugin-design</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-12-24T11:06:02.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jackson 对于多态子类的自动反序列化]]></title>
+        <id>https://yuier.com/posts/024-jackson-polymorphic-subclass-auto-deserialize</id>
+        <link href="https://yuier.com/posts/024-jackson-polymorphic-subclass-auto-deserialize"/>
+        <updated>2025-12-24T02:16:28.000Z</updated>
+        <content type="html"><![CDATA[<p>我正在开发一款 QQ 机器人应用程序。作为后台服务，它与前台客户端通信使用的是 <a href="https://283375.github.io/onebot_v11_vitepress/">OneBot</a> 协议。</p>
+<p>OneBot 协议客户端上报 QQ 事件的方式非常怪异，给我的开发造成很大困扰。</p>
+<br/><p>访问 <a href="https://yuier.com/posts/024-jackson-polymorphic-subclass-auto-deserialize" target="_blank">https://yuier.com/posts/024-jackson-polymorphic-subclass-auto-deserialize</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-12-24T02:16:28.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一个简单的鼠标连点器]]></title>
+        <id>https://yuier.com/posts/018-simple-clicker</id>
+        <link href="https://yuier.com/posts/018-simple-clicker"/>
+        <updated>2025-12-15T18:24:12.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2025/12/15/BwhdUuL3Y4oJFck.png" alt="image.png"></p>
+<br/><p>访问 <a href="https://yuier.com/posts/018-simple-clicker" target="_blank">https://yuier.com/posts/018-simple-clicker</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-12-15T18:24:12.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[觅长生 BepInEx MOD 开发记录]]></title>
+        <id>https://yuier.com/posts/014-michangsheng-bepinex-mod-dev</id>
+        <link href="https://yuier.com/posts/014-michangsheng-bepinex-mod-dev"/>
+        <updated>2025-11-24T15:41:02.000Z</updated>
+        <content type="html"><![CDATA[<p>感谢宵夜的 B 站专栏 <a href="https://www.bilibili.com/read/readlist/rl355806">Unity游戏Mod/插件制作教程</a></p>
+<br/><p>访问 <a href="https://yuier.com/posts/014-michangsheng-bepinex-mod-dev" target="_blank">https://yuier.com/posts/014-michangsheng-bepinex-mod-dev</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-11-24T15:41:02.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《觅长生》炼器开局备忘录]]></title>
+        <id>https://yuier.com/posts/011-michangsheng-lianqikaiju</id>
+        <link href="https://yuier.com/posts/011-michangsheng-lianqikaiju"/>
+        <updated>2025-10-31T15:15:14.000Z</updated>
+        <content type="html"><![CDATA[<h2>英杰会前后</h2>
+<p>创建存档需要有星辰泪。</p>
+<p>开局东石谷剧情没什么好说的，直接快进到进入武陵城。</p>
+<p>然后传送阵传到逸风城，进宝器轩，卖星辰泪，买【金光】。如果求稳可以再买个【护体法袍】，一回合 10</p>
+<br/><p>访问 <a href="https://yuier.com/posts/011-michangsheng-lianqikaiju" target="_blank">https://yuier.com/posts/011-michangsheng-lianqikaiju</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-10-31T15:15:14.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OneBot 消息事件的一种持久化思路]]></title>
+        <id>https://yuier.com/posts/008-one-bot-message-persistence</id>
+        <link href="https://yuier.com/posts/008-one-bot-message-persistence"/>
+        <updated>2025-04-20T18:32:52.000Z</updated>
+        <content type="html"><![CDATA[<p>OneBot 是一种聊天机器人应用接口标准 <a href="https://283375.github.io/onebot_v11_vitepress/">OneBot 11 标准</a></p>
+<br/><p>访问 <a href="https://yuier.com/posts/008-one-bot-message-persistence" target="_blank">https://yuier.com/posts/008-one-bot-message-persistence</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-20T18:32:52.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[搭建自己的邮件服务器]]></title>
+        <id>https://yuier.com/posts/007-your-own-email-server</id>
+        <link href="https://yuier.com/posts/007-your-own-email-server"/>
+        <updated>2025-04-06T23:07:17.000Z</updated>
+        <content type="html"><![CDATA[<p>参考文章：</p>
+<p><a href="https://blog.zeruns.com/archives/822.html">Linux搭建邮件服务器的教程，如何搭建自己的域名邮箱服务器？Poste.io邮箱服务器搭建教程</a></p>
+<br/><p>访问 <a href="https://yuier.com/posts/007-your-own-email-server" target="_blank">https://yuier.com/posts/007-your-own-email-server</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-06T23:07:17.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用 nginx - docker 部署博客]]></title>
+        <id>https://yuier.com/posts/005-deploy-blog-by-nginx-docker</id>
+        <link href="https://yuier.com/posts/005-deploy-blog-by-nginx-docker"/>
+        <updated>2025-03-25T23:45:36.000Z</updated>
+        <content type="html"><![CDATA[<p>不使用 docker 部署步骤见 <a href="https://yuier.com/posts/002-blog-deploy">个人博客的搭建与部署</a> （不推荐）</p>
+<br/><p>访问 <a href="https://yuier.com/posts/005-deploy-blog-by-nginx-docker" target="_blank">https://yuier.com/posts/005-deploy-blog-by-nginx-docker</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-25T23:45:36.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QQ 机器人漫谈]]></title>
+        <id>https://yuier.com/posts/003-qq-bot-brief-introduce</id>
+        <link href="https://yuier.com/posts/003-qq-bot-brief-introduce"/>
+        <updated>2025-03-13T02:14:14.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>隔着网线，没人知道<a href="https://zh.moegirl.org.cn/zh-hans/%E8%B5%9B%E5%8D%9Aoo#.E8.B5.9B.E5.8D.9A.E7.8C.AB.E5.A8.98.2F.E8.B5.9B.E5.8D.9A.E6.B4.97.E8.84.91.E5.92.92">你是一只猫娘</a></p>
+</blockquote>
+<p>本文目的是对 QQ 机器人的一些基本概念进行介绍。</p>
+<br/><p>访问 <a href="https://yuier.com/posts/003-qq-bot-brief-introduce" target="_blank">https://yuier.com/posts/003-qq-bot-brief-introduce</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-13T02:14:14.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[搭建自己的 git 远程仓库服务]]></title>
+        <id>https://yuier.com/posts/001-build-self-gitrepo-server</id>
+        <link href="https://yuier.com/posts/001-build-self-gitrepo-server"/>
+        <updated>2025-03-09T01:19:12.000Z</updated>
+        <content type="html"><![CDATA[<h2>流程简述</h2>
+<p>假设我们已经拥有了一台 Linux 服务器，并且服务器上安装好了 git，并且已经比较熟悉 Linux 与 git 的常用操作</p>
+<ul>
+<li>
+<p>创建 git 用户，用于管理 git 仓库 —— 这样我们的仓库地址就会是 <code>git@your-site.com:/xxx/yyy/zzz.git</code></p>
+</li>
+<li>
+<p>配置 ssh 免密登录，这样每次拉取/推送代码时不必输入 git 用户的密码</p>
+</li>
+<li>
+<p>创建仓库并拉取</p>
+</li>
+<li>
+<p>大功告成！</p>
+</li>
+</ul>
+<br/><p>访问 <a href="https://yuier.com/posts/001-build-self-gitrepo-server" target="_blank">https://yuier.com/posts/001-build-self-gitrepo-server</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>yuier</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-09T01:19:12.000Z</published>
+    </entry>
+</feed>
