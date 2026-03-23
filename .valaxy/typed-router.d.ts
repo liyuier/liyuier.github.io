@@ -296,6 +296,34 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/030-db-2-cache-consistance': RouteRecordInfo<
+      '/posts/030-db-2-cache-consistance',
+      '/posts/030-db-2-cache-consistance',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/031-refresh-old-notebook': RouteRecordInfo<
+      '/posts/031-refresh-old-notebook',
+      '/posts/031-refresh-old-notebook',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/032-minecraft-beginner-note': RouteRecordInfo<
+      '/posts/032-minecraft-beginner-note',
+      '/posts/032-minecraft-beginner-note',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/033-AI-cover-begin': RouteRecordInfo<
+      '/posts/033-AI-cover-begin',
+      '/posts/033-AI-cover-begin',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/tags/': RouteRecordInfo<
       '/tags/',
       '/tags',
@@ -547,6 +575,30 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/029-yuni-doc.md': {
       routes:
         | '/posts/029-yuni-doc'
+      views:
+        | never
+    }
+    'pages/posts/030-db-2-cache-consistance.md': {
+      routes:
+        | '/posts/030-db-2-cache-consistance'
+      views:
+        | never
+    }
+    'pages/posts/031-refresh-old-notebook.md': {
+      routes:
+        | '/posts/031-refresh-old-notebook'
+      views:
+        | never
+    }
+    'pages/posts/032-minecraft-beginner-note.md': {
+      routes:
+        | '/posts/032-minecraft-beginner-note'
+      views:
+        | never
+    }
+    'pages/posts/033-AI-cover-begin.md': {
+      routes:
+        | '/posts/033-AI-cover-begin'
       views:
         | never
     }

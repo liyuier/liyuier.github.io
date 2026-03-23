@@ -24,6 +24,12 @@ export default defineSiteConfig({
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',
     },
+    {
+      name: 'Hugging Face',
+      link: 'https://huggingface.co/yuier0721',
+      icon: 'i-ri-emotion-line',
+      color: '#ffc31cff',
+    },
   ],
 
   /**
