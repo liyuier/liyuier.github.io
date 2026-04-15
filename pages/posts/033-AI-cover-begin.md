@@ -61,6 +61,10 @@ AI 翻唱的制作主要包含以下内容
 ffmpeg -i 待处理视频.mp4 -vn -acodec pcm_s16le 导出结果音频.wav
 ```
 
+### 补充一下网易云素材的处理方式
+
+https://github.com/taurusxin/ncmdump
+
 ### 人声分离
 
 这里使用 MSST-WebUI 整合包
@@ -142,6 +146,8 @@ ffmpeg -i 待处理视频.mp4 -vn -acodec pcm_s16le 导出结果音频.wav
 > [【Sucial丶的动态】​Logic BS RoFormer模型](https://www.bilibili.com/opus/1074580240298147848)
 
 然后我搞完伴奏之后又去听了一下 `Logic BS Roformer` 分离出的人声，果然质量也非常高，于是我决定就用它分离出的人声去一下混响作为干净推理源
+
+另外 `dereverb_echo_mbr_fused_0.5_v2_0.25_big_0.25_super.ckpt` 这个模型去混响效果貌似更好一些
 
 > 九三反方向的钟 伴奏及人声 蓝奏云 https://wwbxk.lanzouv.com/iFo2B3l9h8yd
 
