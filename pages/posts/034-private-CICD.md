@@ -5,7 +5,7 @@ date: 2026-06-12 13:11:33
 updated: 2026-06-12 13:11:33
 author: yuier
 categories:
-    - 
+    - 运维
 tags:
     - CI/CD
 cover: 
