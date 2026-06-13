@@ -59,9 +59,13 @@ mv gitea-runner /usr/local/bin/gitea-runner
 ```bash
 gitea-runner register \
     --instance http://localhost:3000 \
-    --token a_token \
+    --token b4kAY3VemF4Q6pgMNEENelzgswtGLaQ6RBRiKiDg \
     --name vps-runner \
     --labels ubuntu-latest:host
+
+# 后台启动守护进程
+nohup gitea-runner daemon > /srv/docker/gitea/runner/log/gitea-runner.log 2>&1 &
+echo "Runner daemon started, PID: $!"
 ```
 
 运行器貌似会默认启动一个容器用来跑工作流；但我为了省事，就选择 host 模式，直接在本地跑工作流。反正就一个构建-推送 docker 镜像的工作，也不可能把环境搞炸了。
